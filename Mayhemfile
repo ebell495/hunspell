@@ -1,0 +1,7 @@
+project: hunspell
+target: hunspell
+
+image: ghcr.io/ebell495/hunspell:latest
+
+cmds:
+    - cmd: hunspell -d en_US < @@
